@@ -16,6 +16,8 @@ Translates the mathematical state vectors into visual data. Generates 2D orbital
 Transitions simulations from 2D planes into 3D space. Implements directional rotation matrices utilizing the core Keplerian orbital elements: Inclination ($i$), Right Ascension of the Ascending Node ($\Omega$), and Argument of Perigee ($\omega$). Transforms flat perifocal vectors into Earth-Centered Inertial (ECI) 3D coordinate space.
 * **`Mars Mission.py` (Capstone)**
 An interplanetary mission architecture script utilizing the **Patched Conics Method**. It links separate gravitational frames of reference (Sun-centered and Earth-centered) to calculate the precise Hyperbolic Excess Velocity ($V_{\infty}$) and the required insertion velocity ($V_{burn}$) at Low Earth Orbit perigee to escape Earth and reach Mars.
+* **`sso_mirror_tracker.py` (Industry Application)**
+    A custom high-fidelity mission design script modeling a 6 AM / 6 PM Sun-Synchronous Orbit (SSO) at a 500 km operational altitude. The script solves the classical $J_2$ analytical nodal regression equation to output the exact retrograde inclination ($97.40^\circ$) required to precess the orbital plane at $0.9856^\circ$ per day, matching the Earth's heliocentric rotation. Features a 3D Matplotlib orbital path visualization and tracks mission parameters including orbital period (94.62 mins) and daily pass frequencies (15.2 passes/day).
 
 ---
 
