@@ -1,2 +1,2 @@
 # AstrodynamicsProjects
-A comppilation of all my astrodynamics projects 
+A compilation of all my astrodynamics projects 
