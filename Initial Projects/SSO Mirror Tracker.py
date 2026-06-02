@@ -2,7 +2,7 @@
 # 5-28-2026
 # Truman Heaston 
 
-import numpy as mp
+import numpy as np
 import matplotlib.pyplot as plt
 
 MU_EARTH = 398600.4418  # km^3/s^2
