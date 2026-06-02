@@ -52,7 +52,7 @@ python SSO_Mirror_Tracker.py
 
 ---
 
-### 🚀 LEO to GEO Transfer Calculator
+### LEO to GEO Transfer Calculator
 **Computes the delta-v budget for a Hohmann transfer from Low Earth Orbit to Geostationary Orbit.**
 
 #### What it does
